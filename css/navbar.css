@@ -1,0 +1,67 @@
+
+.site-name{
+    margin: 3px auto ;
+    padding: 3px 2px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 165px;
+    height: 25px;
+    position: absolute;
+    top:calc(50% - 24px) ;
+    left: calc(50% - 165px/2 + 3.5px);
+   
+}
+.navbar{
+    height: 88px;
+    margin: 0; 
+    position: relative;
+    top: 0%;
+    right:0%;
+    left: 0%;
+    bottom: 0%;
+    background-color: #fff;
+    
+}
+.pge-tab{
+    padding: 4px 0;
+    list-style-type:none;
+    margin: 5px auto ;
+    font-weight: 400;
+    font-size: 0.88em;
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    height: 25px;
+    position: absolute;
+    top:calc(50%) ;
+    left: calc(50% - 900px/2) ;
+    right: auto;   
+}
+
+.pge-tab a {
+    margin: 0 1em;
+    padding: 0.2em 1.5em;
+    
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    }
+.icn-tab{
+
+    display: flex;
+    justify-content: flex-end;
+    align-content: stretch;
+    height: 24px;
+    padding: 4px; 
+    box-sizing: border-box;
+
+}
+.icn-item{
+    padding: 1px 4px;
+    /* font-size: 0.875em;  /* 
+    /* icon size value for a small size.should be used in media queries */
+    height: 18px;
+}
+
+

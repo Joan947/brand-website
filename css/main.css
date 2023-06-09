@@ -1,0 +1,46 @@
+
+@import url(home.css);
+/* /The box model fix */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body{
+    font-family: 'Roboto', 'Roboto Slab', sans-serif;
+    margin: 0;
+    
+}
+header{
+  margin-top: 0%;
+}
+h1{
+    font-size: 1.18em;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0.25em;
+    font-family: 'Roboto', serif;
+    text-transform: uppercase;
+  }
+
+h2{
+  font-size: 1.5em;
+    text-align: center;
+    font-weight: 300;
+    line-height: 1.1em;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+}  
+a{
+    text-decoration: none; 
+    color: #000;
+}
+
+
+.btn{
+  font-size: 1em;
+  font-weight: 300;
+}

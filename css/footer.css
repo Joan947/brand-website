@@ -1,0 +1,52 @@
+
+footer{
+    height: auto;
+    margin: 0; 
+    padding: 0.9em 1.5em;
+    display: flex;
+    flex-direction: row;justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    
+}
+.foo-flex{
+    margin: 0 ;
+    padding: 4px 12px;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: white;
+    text-transform: uppercase;
+    display: inline-flex;
+    width: 900px;
+    justify-content: flex-start;
+   
+}
+footer span{
+    padding: 0.2em 1.5em;
+}
+footer a {
+    
+    padding: 0.2em 1.5em;
+    color: white;
+    display: inline-block;
+    text-align: justify;
+    text-transform: uppercase;
+    }
+.icn-footer{
+
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 200px;
+    padding: 4px; 
+    box-sizing: border-box;
+
+}
+.icn-item2{
+    padding: 1px 4px;
+    color: #fff;
+    /* font-size: 0.875em;  /* 
+    /* icon size value for a small size.should be used in media queries */
+    /* height: 18px; */
+}
+
+
